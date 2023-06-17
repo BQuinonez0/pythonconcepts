@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 15 17:15:27 2022
+@author: BritneyQuinonez
+"""
+#Welcome Message and context
+print("\nWelcome to the fitness center. What would you like to do?")
+#Set an initial value for the choice
+choice =''
+#Start the loop that runs until q (while loop)
+while True:
+print("\n[1] Enter 1 to take a bike ride.")
+print("[2] Enter 2 to go for a run.")
+print("[3] Enter 3 to climb a mountain.")
+print("[4] Enter 4 to go swimming.")
+print("[q] Enter q to Quit!")
+choice=input("\nWhat would you like to do?")
+if choice == '1':
+print("\n Here's your bike. Grab a helment from the rack. Have fun! \n")
+elif choice == '2':
+print("\n Here are some sneakers. Run fast! \n")
+elif choice == '3':
+print("\n Here's a map. Can you leave a trip plan for us? \n")
+elif choice == '4':
+print("\n Don't pee in the pool. Good luck! \n")
+elif choice == 'q':
+temp = input("Are you Sure (y/n)? ")
+if (temp.lower() == 'y'):
+break
+else:
+print("\n I don't understand that choice, please try again. \n")
+print("Thanks again, bye now")
+print("\n The 3 functions output are as follows:")
+def func_name(name, color):
+print(name"'"+' '+ 'favorite color is' +color)
+def func_phone(brand, model):
+def func_arbitary(*argv):
+lst=[]
+for i in argv:
+lst.append(i)
+print(sum(lst))
+func_name('Hilary', 'blue')
+func_name('Clinton', 'black')
+func_name('Juliet', 'Pink')
+func_phone('one plus', '7t')
+func_phone('samsung', 'Note 10')
+func_phone('Realme','6')
+func_arbitary(1,2,3)
+func_arbitary(4,3) 
