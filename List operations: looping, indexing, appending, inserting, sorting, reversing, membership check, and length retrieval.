@@ -1,0 +1,91 @@
+User
+"""
+Created on Sun Oct 16 18:06:06 2022
+
+@author: BritneyQuinonez
+"""
+#First List - Loop 
+
+first_list=['Blue','Yellow','Green','Pink','Black','White']
+for color in first_list:
+    print(color)
+#First Neat List - Loop
+
+first_neat_loop=['Strawberries are the best fruit out there.']
+for statement in first_neat_loop: 
+    print (statement)
+    
+#Your First List - Loop
+
+your_first_list=['Blue', 'Yellow', 'Red']
+for color in your_first_list: 
+    print (color)
+    
+# Working Lists
+careers=['programmer','consultant','lawyer','doctor']
+print("The index of \"consultant\" is: ", careers.index('consultant'))
+print('consultant' in careers)
+careers.append('teacher')
+careers.insert(0,"actor")
+for values in (careers):
+    print(careers)
+    
+#Starting From Empty
+careers=[]
+careers.append('manager')
+careers.append('counselor')
+careers.append('uber driver')
+print(careers.append)
+print('First career in the list is',careers[0])
+print('Last career in the list is',careers[-1])
+
+#Ordered Working List
+for career in careers:
+    print(career)
+sorted_careers = sorted(careers)
+print(sorted_careers)
+print(careers)
+print('This is a random order.')
+sorted_careers = sorted(careers)
+print(sorted_careers)
+print('This is the original order')
+print(careers)
+reverse_sorted_careers=sorted(careers,reverse=True)
+print(reverse_sorted_careers)
+print('This is the reverse alphabetical order.')
+print(careers)
+
+careers.sort()
+print(careers)
+careers.reverse()
+print(careers)
+
+#Ordered Numbers
+
+random_numbers=[24,23,13,20,10]
+print(random_numbers)
+increasing_order=sorted(random_numbers)
+print(increasing_order)
+print('Numbers are going in an increasing order')
+
+
+print(random_numbers)
+decreasing_order=sorted(random_numbers,reverse=True)
+print(decreasing_order)
+print('Numbers are going in a decreasing order')
+
+print(random_numbers)
+reverse_ordered=[num for num in random_numbers].reverse()
+print(reverse_ordered)
+print('Numbers are going back to original form')
+print(random_numbers)
+
+random_numbers.sort()
+print(random_numbers)
+
+random_numbers.reverse()
+print(random_numbers)
+
+#List Lengths
+print('Elements in the list: ',len(random_numbers))
+print('Career count:',len(careers))
