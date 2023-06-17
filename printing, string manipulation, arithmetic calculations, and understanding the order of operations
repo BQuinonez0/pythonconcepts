@@ -1,0 +1,79 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 21 19:28:58 2022
+
+@author: BQ
+"""
+#TASK1 - Someone said
+quote="Reach for the stars"
+print(quote)
+
+#TASK2 - First Name Cases
+firstname="Britney"
+print(firstname)
+firstname="BRITNEY"
+print(firstname)
+firstname="britney"
+print(firstname)
+
+#TASK3 - Full Name
+str1 = 'Britney'
+str2 = 'Quinonez'
+print(str1, str2)
+
+#TASK4 About This Person
+str1 = 'Lidia'
+str2 = 'Pardo'
+print(str1, str2)
+str3 = "She is a very kind person."
+print(str3)
+
+#TASK5 Name Strip
+sentence = "\w Britney \k"
+stripped1 = sentence.strip()[3:10]
+print (stripped1)
+
+sentence1 = "\w Britney \k"
+stripped2 = sentence.strip()[:10]
+print (stripped2)
+
+sentence = "\w Britney \k"
+stripped3 = sentence.strip()[3:]
+print (stripped3)
+
+print('addition: 1+2=',1+2)
+print('subtraction: 10-5=', 10-5)
+print('multiplication: 2*12=', 2*12)
+print('division: 10/5=', 10/5)
+
+#TASK6 Order of Operations
+calc1 = 3+ 6 * 3 #nonstandard order of operations
+calc2 = (3 + 6) * 3 #standard order of operations
+print('calc1: 3+6*3 =', calc1)
+print('calc2: (3+6)*3 =', calc2)
+
+#TASK7 Long Decimals
+print('addtion: 0.2+0.4', 0.2+0.4)
+
+#TASK8 - Neat Arithmetic
+result1= 5+5
+print("The result of the 1st calculation 5+5 is", result1)
+result2= 5-4
+print("The result of the 2nd caclulation 5-4 is", result2)
+result3=5*3
+print("The result of the 3rd calculation 5*3 is", result3)
+result4=10/5
+print("The result of the 4th calculation 10/5 is", result4)
+result5= 6+6
+print("The result of the 5th calculation 6+6 is", result5)
+result6= 3*4
+print("The result of the 6th calculation 3*4 is", result6)
+
+#TASK9 Neat Order of Operations
+calc1 = 3+ 6 * 3 
+calc2 = (3 + 6) * 3 
+print("The result of the 1st calculation 3+6*3 is a nonstandard order of operation. I decided to choose this because it did not have any parentheses. Multiplication was going to come first then adding. Then the 2nd calculation focused on the parenthesis first then adding then multiplying. The result for 1st calculation was", calc1, "and the result for the 2nd calculation was", calc2)
+      
+#TASK10 Long Decimals - Pattern
+print('subtraction: 0.3-0.2', 0.3-0.2)
+#I think 0.3-0.2 is not computing to 0.1 because computers do not compute in Decimal, instead they compute in Binary.
