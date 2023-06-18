@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jun 18 16:58:26 2023
+
+@author: Britney
+"""
+
+#What is Python? Explain its key features.
+#What are the differences between Python 2 and Python 3?
+#How do you handle exceptions in Python?
+#Explain the concept of a virtual environment in Python.
+#What are the different data types in Python?
+#How do you define a function in Python?
+#What are lambda functions in Python?
+#Explain the difference between a shallow copy and a deep copy.
+#How do you handle file I/O in Python?
+#What are decorators in Python?
+#Explain the difference between a list and a tuple.
+#What is the purpose of the if __name__ == "__main__" statement?
+#How do you handle multi-threading in Python?
+#What is the Global Interpreter Lock (GIL) in Python?
+#Explain the concept of generators in Python.
+#How do you implement inheritance in Python?
+#What is the difference between a module and a package in Python?
+#Explain the concept of list comprehension.
+#How do you handle JSON data in Python?
+#What are the built-in data structures in Python?
+#Explain the concept of scope in Python.
+#How do you handle database operations in Python?
+#What are decorators used for in Python?
+#How do you handle memory management in Python?
+#Explain the concept of recursion and provide an example in Python.
+#How do you perform unit testing in Python?
+#Explain the concept of iterators and iterables in Python.
+#How do you handle concurrency in Python?
+#What is the purpose of the __init__ method in Python classes?
+#Explain the concept of garbage collection in Python.
